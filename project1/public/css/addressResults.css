@@ -1,0 +1,65 @@
+div.AddressResults{
+    position: absolute;
+}
+
+table.DISP_AR_TAB {
+    border-collapse:collapse;
+    border:1px solid #C2C2AF;
+    margin:0 0 5px 0; padding:0;
+    /*width:700px;*/
+}
+table.DISP_AR_TAB th, 
+table.DISP_AR_TAB td, 
+table.DISP_AR_TAB caption {
+    border:1px solid #C2C2AF;
+    padding:4px 5px;
+    vertical-align:top;
+}
+table.DISP_AR_TAB th {
+    background:#386484;
+    color:#fff;
+    text-align:center;
+    font: 14px Georgia,"Times New Roman", Times,serif;
+}
+table.DISP_AR_TAB .subhead {
+    background:#f8f8f8;
+}
+table.DISP_AR_TAB th a, 
+table.DISP_AR_TAB th a:visited {
+    color:#fff;
+    text-decoration:underline;
+}
+table.DISP_AR_TAB caption {
+    text-align:left;
+    border:0;
+    margin:3px 0;
+    padding-left:0;
+}
+table.DISP_AR_TAB tbody, 
+table.DISP_AR_TAB tbody.tr, 
+table.DISP_AR_TAB tbody.tr.td {
+    /*font: 12px Georgia,"Times New Roman", Times,serif;*/
+    font: 11px Verdana, sans-serif, Arial,Times New Roman;
+}
+table.DISP_AR_TAB thead {
+    position: relative;
+    display: inline-block;
+    clear: both;
+}
+table.DISP_AR_TAB tbody.scrollContent2 {
+    max-height:265px;   
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    display: inline-block;
+    word-wrap:break-word;
+}
+.highlighted {
+    color: black !important;
+    background-color: #ffff73 !important;
+}
+.resultsReturn{
+    margin-top:0px;
+    font-size:12px;
+    color:rgb(0,54,91);
+}

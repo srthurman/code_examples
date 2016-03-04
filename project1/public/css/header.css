@@ -1,0 +1,46 @@
+#header{
+   background-color: #386484;
+   height: 60px;
+   border-radius: 5px;
+}
+#header .nonid-brand {
+  color: white;
+  font: bold 45px times, arial, helvetica, sans-serif;
+  letter-spacing: 1px;  
+  text-decoration: none;
+  padding: 0px;
+  margin: 5px 10px 0px 10px;
+  float: left;
+}
+#header_title{       
+    padding: 15px;    
+    bottom:0;
+    color: white;
+}
+#header_title .right{float:right;}
+
+#header_title .rightSideHeader{
+  text-decoration: none;  
+  color: white;
+  float: right;
+}
+
+/*button styles*/
+a.button,
+input.button {
+    display: inline-block;
+    background: -moz-linear-gradient(top, #3f94ce 0%, #3d92cc 11%, #1a6fa9 100%); /* FF3.6+ */
+    background: -ms-linear-gradient(top, #3f94ce 0%,#3d92cc 11%,#1a6fa9 100%); /* IE10+ */
+    background: linear-gradient(top, #3f94ce 0%,#3d92cc 11%,#1a6fa9 100%); /* W3C */
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px; 
+    border: 0;
+    height: 25px;
+    line-height: 25px;
+    color: #fff;
+    padding: 0 5px;
+    font: 14px Georgia,"Times New Roman", Times,serif;
+    min-width:80px;
+    cursor: pointer;
+}

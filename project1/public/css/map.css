@@ -1,0 +1,134 @@
+#mapContainer {
+    padding-top:20px;
+    width: 80%;
+    margin: auto;
+}
+#map {
+    max-height: 480px;
+    max-width: 640px;
+    min-height: 480px;
+    min-width: 640px;
+    /*width: 67%;*/
+    background: #fff;
+    /*float:left;*/
+}
+body {
+  font-family: times, arial, helvetica, sans-serif;
+  background-color: #E7EFF6;
+  font-size: 14px;
+  margin: 0;
+  
+}
+
+table.DISP_MAP_TAB {
+    border-collapse:collapse;
+    border:1px solid #C2C2AF;
+    margin:0 0 5px 0; padding:0;
+    /*width:700px;*/
+}
+table.DISP_MAP_TAB th, 
+table.DISP_MAP_TAB td, 
+table.DISP_MAP_TAB caption {
+    border:1px solid #C2C2AF;
+    padding:4px 5px;
+    vertical-align:top;
+    max-width:300px;
+    min-width:300px;
+}
+table.DISP_MAP_TAB th {
+    background:#386484;
+    color:#fff;
+    text-align:center;
+    font: 14px Georgia,"Times New Roman", Times,serif;
+    max-width:300px;
+    min-width:300px;
+}
+table.DISP_MAP_TAB .subhead {
+    background:#f8f8f8;
+}
+table.DISP_MAP_TAB th a, 
+table.DISP_MAP_TAB th a:visited {
+    color:#fff;
+    text-decoration:underline;
+}
+table.DISP_MAP_TAB caption {
+    text-align:left;
+    border:0;
+    margin:3px 0;
+    padding-left:0;
+}
+table.DISP_MAP_TAB tbody, 
+table.DISP_MAP_TAB tbody.tr, 
+table.DISP_MAP_TAB tbody.tr.td {
+    /*font: 12px Georgia,"Times New Roman", Times,serif;*/
+    font: 11px Verdana, sans-serif, Arial,Times New Roman;
+}
+table.DISP_MAP_TAB thead {
+    position: relative;
+    display: inline-block;
+    clear: both;
+}
+table.DISP_MAP_TAB tbody.scrollContent2 {
+    max-height:120px;   
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    display: inline-block;
+    word-wrap:break-word;
+    background-color:White;
+
+}
+.highlighted {
+    color: black !important;
+    background-color: #ffff73 !important;
+}
+.button{
+    background:#52789A;
+    color:white;
+    font-weight:bold;
+}
+a.button,
+input.button {
+    display: inline-block;
+    background: -moz-linear-gradient(top, #3f94ce 0%, #3d92cc 11%, #1a6fa9 100%); /* FF3.6+ */
+    background: -ms-linear-gradient(top, #3f94ce 0%,#3d92cc 11%,#1a6fa9 100%); /* IE10+ */
+    background: linear-gradient(top, #3f94ce 0%,#3d92cc 11%,#1a6fa9 100%); /* W3C */
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px; 
+    border: 0;
+    height: 25px;
+    line-height: 25px;
+    color: #fff;
+    padding: 0 5px;
+    font: 14px Georgia,"Times New Roman", Times,serif;
+    min-width:80px;
+    cursor: pointer;
+}
+#LOWER_DISPLAY{
+    max-height:175px;
+    min-height:175px;
+    max-width:640px;
+    min-width:640px;
+    padding: 5px 0px 0px 0px;
+}
+#SEARCH_DISPLAY{
+    max-width:25%;
+    min-width:25%;
+    float: left;
+}
+#ADDRESS_TABLE{
+    /*float:left;*/
+    max-width: 50%;
+    min-width: 50%;
+        float: left;
+}
+#BUTTON_DISPLAY{
+    max-width:18%;
+    min-width:18%;
+        float: right;
+}
+
+/*#IMPORT_BUTTON{
+    float:left;
+}*/

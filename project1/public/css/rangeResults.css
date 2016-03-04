@@ -1,0 +1,113 @@
+body
+{
+    font-family: times, arial, helvetica, sans-serif;
+    background-color:#E7EFF6;
+    font-size:14px;
+    margin:0;
+    padding:0px;
+    overflow:auto;
+    min-height:720px;
+    max-height:800px;
+    min-width: 1080px;
+}
+div.RangeArea1{
+    position:absolute;
+    height:315px;
+    width:650px;
+}
+div.RangeArea2{
+    position: absolute;
+    height:315px;
+    width:950px;
+}
+/*This is the left side results (Street/Zip)*/
+#tableLeftResults{
+    float:left;  
+    height:100%;
+    width:525px; 
+    padding-left:0px;
+}
+#tableButtons{
+    float:right;
+    padding:11px 0 0 20px;
+    width:auto; height:300px;
+}
+/*This is the right side resuls (Parity/From/To)*/
+#tableRightResults{
+    float:right; padding-left:20px;
+    width:auto; height:100%;
+}
+
+#tableButtons.resultLayout{
+    /*width:50%;*/
+    float:left; padding-left:10px;
+    width:auto; height:350px;
+}
+.resultLayout input{margin: 5px 0 5px 0 }
+table{
+    /*margin:0 20px 0 10px;*/
+}
+td{
+    border: 1px solid black;
+    padding-right:20px;
+} 
+th{padding-right:20px;}
+
+table.RANGE_TB {
+    border-collapse:collapse;
+    border:1px solid #C2C2AF;
+    margin:0 0 5px 0; padding:0;
+    /*width:700px;*/
+}
+table.RANGE_TB th, 
+table.RANGE_TB td, 
+table.RANGE_TB caption {
+    border:1px solid #C2C2AF;
+    padding:4px 5px;
+    vertical-align:top;
+}
+table.RANGE_TB th {
+    background:#386484;
+    color:#fff;
+    text-align:center;
+    font: 14px Georgia,"Times New Roman", Times,serif;
+}
+table.RANGE_TB .subhead {
+    background:#f8f8f8;
+}
+table.RANGE_TB th a, 
+table.RANGE_TB th a:visited {
+    color:#fff;
+    text-decoration:underline;
+}
+table.RANGE_TB caption {
+    text-align:left;
+    border:0;
+    margin:3px 0;
+    padding-left:0;
+}
+table.RANGE_TB tbody, 
+table.RANGE_TB tbody.tr, 
+table.RANGE_TB tbody.tr.td {
+    /*font: 12px Georgia,"Times New Roman", Times,serif;*/
+    font: 11px Verdana, sans-serif, Arial,Times New Roman;
+}
+
+table.RANGE_TB thead {
+    position: relative;
+    display: inline-block;
+    clear: both;
+}
+table.RANGE_TB tbody.scrollContent2 {
+    max-height:265px;   
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    display: inline-block;
+    word-wrap:break-word;
+}
+.resultsReturn{
+    margin-top:0px;
+    font-size:12px;
+    color:rgb(0,54,91);
+}

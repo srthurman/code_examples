@@ -1,0 +1,112 @@
+/*Contributors: Bao Ho*/
+
+
+body{
+    font-family: times, arial, helvetica, sans-serif;
+    background-color:#E7EFF6;
+    font-size:14px;
+    margin:0;
+    padding:0 5px 0 5px;
+    overflow:auto;
+    min-width: 1024px;   
+}
+
+/* Containers */
+#topView { min-width: 1024px; max-width: 1024px; margin:10px auto 10px auto; }
+
+#buttonArea{ height:36px; min-width: 1024px; max-width: 1024px; margin:5px auto 0 auto; float:left;}
+#userListSection{ float:left; min-height:300px; width: 1024px; height: 100%; background-color:#FBFDFE; border:1px solid #646464;}
+#userList{  margin:0 auto 0 auto; background-color:#FBFDFE; margin:auto;}
+/*display: inline-block; */
+
+
+h1{
+    font-size:16px;    
+    margin:0; padding:5px;
+    background: #C5D6E5;
+    border-bottom:1px solid #646464;
+    height:25px;
+}
+#QCstats dl {
+    display: inline-flex;
+}
+
+#QCstats dd {
+    margin-right: 40px;
+    margin-left: 5px;
+}
+
+#QCstats label {
+    font-weight: bold;
+}
+
+#QCstats textarea {
+    height: 13px;
+    background:#d6d6d6;
+    overflow-y:hidden;
+    resize:none;
+    text-align:center;
+    font-weight: bold;
+}
+
+.tablesorter {
+    width: auto;
+}
+.tablesorter .tablesorter-filter {
+    width: 50px;
+}
+.tablesorter .tablesorter-filter-row td input{
+    min-width: 80%;
+}
+
+a.button, input.button{
+    min-width:40px;
+    
+}
+.padding{
+    padding:15px 0 0 0;
+}
+
+.border{background: #C5D6E5;}
+.right{float:right;}
+.left{float:left;}
+.right2{right:0;}
+
+
+div.bottom_button {
+    TEXT-ALIGN: center;
+    BACKGROUND-COLOR: #eeeeee;
+    vertical-align:bottom;
+    width:1024px;
+}
+.disableInputButton{
+    opacity:0.5;
+}
+.enableButton{
+    opacity:1;
+}
+
+.highlighted {
+    color: black !important;
+    background-color: #ffff73 !important;
+}
+.resultsReturn{
+    float: left;
+    font-size:12px;
+    color:rgb(0,54,91);
+    text-align:right;
+}
+
+tr.UserRow{
+    height:20px;
+}
+.highlight {
+    border: 3px solid #ffff73;
+    color: #000;
+}
+.redHighlight{
+    background: rgba(249, 138, 138, 1);
+}
+.greenHighlight{
+    background: rgba(184, 245, 184, 1);
+}

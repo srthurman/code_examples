@@ -1,0 +1,104 @@
+.ui-dialog-titlebar-close  { visibility: hidden; }
+#dialogSideBySide { background: white; }
+#dialogSideBySide .ui-dialog-titlebar {
+    background: -moz-linear-gradient(top, #3f94ce 0%, #3d92cc 11%, #1a6fa9 100%); /* FF3.6+ */
+    background: -ms-linear-gradient(top, #3f94ce 0%,#3d92cc 11%,#1a6fa9 100%); /* IE10+ */
+    background: linear-gradient(top, #3f94ce 0%,#3d92cc 11%,#1a6fa9 100%); /* W3C */
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    color: #fff;
+    font: 16px Georgia,"Times New Roman", Times,serif;
+}
+/*
+ *This is used to have the dialog move if the window is resized
+ *The negative margins should equal half your height and half your width.
+ */
+.ui-dialog {
+  /*top:50% !important;
+  margin-top:-400px !important; 
+  left:50% !important;
+  margin-left:-525px !important*/
+}
+
+#dialogSideBySide{
+    background: rgba(230, 238, 245, 1);
+}
+.ui-resizable-handle{
+    background: rgba(230, 238, 245, 1);
+}
+.ui-dialog .ui-dialog-buttonpane{
+    margin-top:0;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset{
+    float:none;
+    text-align:center;
+}
+#headerSideBySideWindow{
+    /*position:relative;*/
+    text-align: center;
+    display:inline-flex;    
+    height:auto;
+    width:1010px;
+}
+#headerManual, #headerQc{
+    margin-left: 10px;
+    width:49%;
+    border: 1px solid #aaaaaa;
+}
+#sideBySideWindow{
+    /*position:relative;*/
+    overflow-y: auto;
+    overflow-x: hidden;
+    display:inline-flex;    
+    height:95%;
+    width:100%;
+}
+#manualBody, #qcBody{
+    margin-left: 10px;
+    margin-top:5px;    
+    height:835px;
+    width:500px;
+    border: 1px solid #aaaaaa;
+    background: white;
+    /*float: left;*/ 
+}
+#manualSide fieldset{
+    background:white;
+    padding-top:2px;
+}
+#qcSide{
+    margin-left:15px;    
+}
+#manAccept{
+    margin-left:77px;
+}
+#qcAccept{
+    margin-left:5px;
+}
+#sbsContinue{
+    float:right;
+}
+#sideBySideWindow label{
+    float:right;
+}
+.borderHighlight{ 
+    border: 2px solid rgba(90, 120, 142, 1);
+}
+
+.ui-dialog .ui-dialog-buttonpane button{
+    display: inline-block;
+    background: -moz-linear-gradient(top, #3f94ce 0%, #3d92cc 11%, #1a6fa9 100%); /* FF3.6+ */
+    background: -ms-linear-gradient(top, #3f94ce 0%,#3d92cc 11%,#1a6fa9 100%); /* IE10+ */
+    background: linear-gradient(top, #3f94ce 0%,#3d92cc 11%,#1a6fa9 100%); /* W3C */
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px; 
+    border: 0;
+    height: 25px;
+    line-height: 25px;
+    color: #fff;
+    padding: 0 5px;
+    font: 14px Georgia,"Times New Roman", Times,serif;
+    min-width:80px;
+    cursor: pointer;
+}

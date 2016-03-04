@@ -1,0 +1,113 @@
+/*Contributors: Bao Ho*/
+body {
+  font-family: times, arial, helvetica, sans-serif;
+  background-color: #E7EFF6;
+  font-size: 14px;
+  margin: 0;
+  
+}
+
+
+/*
+* navbar - Navigation Menu
+*/
+#navbar {
+   background-color: #bce7f2;
+   margin: 5px;
+   padding: 1px;
+   list-style-type: none;
+   border-radius: 5px;
+}
+
+#navbar ul{
+   background-color: #bce7f2;
+   margin: 5px;
+   padding: 1px;
+   list-style-type: none;
+   border-radius: 5px;
+   overflow: auto;
+}
+#navbar ul li{
+   display: inline;
+   color: #386484;
+}
+#navbar ul li#li-right{
+   float: right;
+}
+#navbar ul li a{
+   text-decoration: none;
+   font: bold 15px times, arial, helvetica, sans-serif;
+   padding: 0em 1em;
+}
+#navbar ul li a:hover{
+   color: White;
+   background-color: #b5d4e6;
+   border-radius: 5px;
+}
+
+#navbar ul #navbar-right li{
+   float: right;
+   background-color: #b3eaf2; 
+   margin: 5px;
+   padding: 5px;
+   list-style-type: none;
+   border-radius: 5px;
+}
+
+.right{
+    float:right;
+}
+.left{
+    float:left;
+}
+
+
+/* Added for accountRequest. Refactor out later? */
+div.pagetitle {
+    font: 16px Georgia,"Times New Roman", Times,serif;
+    font-weight: bold;
+}
+
+div.container {
+    background: #FFF;
+    margin: 0 auto;
+    padding: 0 5px;
+    float: left;  
+}
+
+.rounded {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -webkit-box-shadow: #ccc 0px 3px 3px;
+    -moz-box-shadow: #ccc 0px 3px 3px;
+    box-shadow: #ccc 0px 3px 3px;
+    outline-style: none;
+}
+
+div.DisplayTop {
+    width: 1000px;
+    clear: both;
+    margin: 0 auto;
+    padding: 10px 5px;
+    -webkit-box-shadow: #333 0px 2px 10px;
+    -moz-box-shadow: #333 0px 2px 10px;
+    box-shadow: #333 0px 2px 10px;
+    background-color: #fff;
+}
+
+.form-inline {
+    margin: auto;
+    max-width: 80%;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.button{
+    background:#52789A;
+    color:white;
+    font-weight:bold;
+}
+
