@@ -45,14 +45,14 @@ $('#phoneCall').click(function () {
 
 });
 
-$('#Accept').click(function(e) { console.log("click accept"); console.trace(); Record.UpdateRecord('Accept'); e.stopPropagation(); });
-$('#Uncodable').click(function(e) { console.log("click uncodable"); console.trace(); Record.UpdateRecord('Uncodable'); e.stopPropagation(); });
-$('#Refer').click(function(e) { console.log("click refer"); console.trace(); Record.UpdateRecord('Refer'); e.stopPropagation(); });
-$('#Retrieve').click(function() { Record.RetrieveList(); e.stopPropagation(); });
+$('#container_rounded').on('click', '#Accept', function() { Record.UpdateRecord('Accept'); });
+$('#container_rounded').on('click', '#Uncodable', function() { Record.UpdateRecord('Uncodable'); });
+$('#container_rounded').on('click', '#Refer', function() { Record.UpdateRecord('Refer'); });
+$('#container_rounded').on('click', '#Retrieve', function() { Record.RetrieveList(); });
 
-$('#PhoneCallBtn').click(function() { Record.PhoneCall(); e.stopPropagation(); });
+$('#container_rounded').on('click', '#PhoneCallBtn', function() { Record.PhoneCall(); });
 
-$('#Exit').click(function() { Record.ExitRecord(); });
+$('#container_rounded').on('click', '#Exit', function() { Record.ExitRecord(); });
 /****************** END Event Handlers ******************/
 
 
